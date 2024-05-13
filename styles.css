@@ -116,3 +116,10 @@ h3{
     color: beige;
     font-size: 3rem;
 }
+.name{
+    text-align: left;
+    width: 100%;
+    height: 28%;
+    padding: 0.1rem;
+    margin-left: 1.5rem;
+}
