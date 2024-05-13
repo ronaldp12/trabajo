@@ -6,12 +6,12 @@
 body{
     width: 100%;
     height: 100vh;
-    background-color: #a1d6db;
+    background-color: #9ff0e4;
 }
 header{
     width: 100%;
     height: 6rem;
-    background-color: #228f98;
+    background-color: #168b86;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,29 +29,32 @@ header{
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    background-color: #228f98;
+    background-color: #168b86;
     margin: 0.5rem;
     display: flex;
     justify-content: right;
-    float: right;    
+    float: right;   
+    box-shadow: 0 0 20px beige;
 }
 
 button{
    padding: 5px ;
    margin-right: 1px;
-   background-color: #65f6fb;
-   color: black;
+   background-color: #21bab0;
+   color: #072b2c;
    border-radius: 8px;
    cursor: pointer;
 }
 
 button:hover{
-    background-color: #06a0b4;
+    background-color: #168b86;
+    color: #072b2c;
 }
 
 
 h1{
     text-align: center;
+    text-shadow: 0 0 10px beige;
 }
 .container-2{
    display: flex;
@@ -100,7 +103,7 @@ h3{
     margin: 16px;
     margin-top: 0.7rem;
     margin-bottom: 0;
-    background-color: #228f98;
+    background-color: #168b86;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,7 +130,7 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #228f98;
+    background-color: #168b86;
 }
 .social{
     width: 50%;
